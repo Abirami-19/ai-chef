@@ -30,27 +30,6 @@ AI Chef is a production-style full-stack web application that recommends recipes
 - **AI:** Gemini API (default) with Hugging Face fallback-style abstraction
 - **External APIs:** Spoonacular-style endpoint integration
 
-## Environment Variables
-
-### Backend (`backend/.env`)
-
-```bash
-PORT=5000
-MONGODB_URI=mongodb+srv://admin:AiChef%402026Secure%21@cookingai.kimkm6l.mongodb.net/ai-chef?retryWrites=true&w=majority
-JWT_SECRET=supersecretkey123
-SPOONACULAR_API_KEY=b4d9fac9969c4aa88e114ff4908c884d
-SPOONACULAR_BASE_URL=https://api.spoonacular.com
-GEMINI_API_KEY=AIzaSyC84xezOOquOWf8Jp-zLpYfafYBy79fLRA
-AI_PROVIDER=gemini
-CLIENT_URL=http://localhost:5173
-```
-
-### Frontend (`frontend/.env`)
-
-```bash
-VITE_API_BASE_URL=http://localhost:5000/api
-```
-
 ## Run Locally
 
 ```bash
